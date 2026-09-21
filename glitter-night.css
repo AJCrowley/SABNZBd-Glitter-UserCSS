@@ -7,6 +7,7 @@
 ==/UserStyle== */
 /*@-moz-document url-prefix("http://127.0.0.1:6060/sabnzbd/") {*/
     /* Note: Make sure that the selected theme in SABNZBd is Glitter - Night for this CSS to work */
+    /* Note: Make sure that the selected theme in SABNZBd is Glitter - Night for this CSS to work */
     :root {
         --border-radius: 12px;
         --color-gold: #ffca28;
@@ -27,7 +28,7 @@
     .container {
         width: 95%;
     }
-
+    
     .ui-slider,
     .ui-slider-range,
     .ui-slider-handle,
@@ -46,13 +47,13 @@
     }
 
     .main-navbar {
-        border-radius: var(--border-radius) var(--border-radius) 0 0 !important;
+        border-radius: var(--border-radius) !important;
     }
 
     .main-content {
         border-radius: 0 0 var(--border-radius) var(--border-radius) !important;
     }
-
+    
     table > tbody > tr:first-child > td:first-child {
         border-radius: var(--border-radius) 0 0 0 !important;
     }
@@ -96,7 +97,7 @@
     table.queue-table > tbody.no-downloads > tr:only-child {
         background: var(--vertical-gradient);
     }
-
+    
     table.queue-table > tbody > tr.queue-item {
         white-space: nowrap;
     }
@@ -104,11 +105,11 @@
     .ui-slider-range {
         background-color: var(--color-gold) !important;
     }
-
+    
    .ui-slider {
         background-color: var(--dark-color) !important;
     }
-
+    
     .ui-slider-handle {
         background-color: var(--light-color) !important;
     }
@@ -116,7 +117,7 @@
     .history td {
         color: var(--history-color) !important;
     }
-
+    
     .glyphicon-link {
         color: var(--light-color);
     }
@@ -124,7 +125,7 @@
     .btn-group .caret {
         border-top-color: var(--light-color) !important;
     }
-
+    
     .btn-group.open .caret {
         border-top-color: var(--dark-color) !important;
     }
@@ -136,7 +137,7 @@
     .table > tbody > tr > td {
         padding: 5px;
     }
-
+    
     .peity,
     .btn-group > .btn {
         background-color: var(--dark-color);
@@ -146,12 +147,12 @@
         color: var(--light-color);
     }
 
-    polygon {
-        fill: var(--color-gold);
+    .peity > polygon {
+        fill: var(--color-gold) !important;
     }
 
-    polyline {
-        stroke: var(--color-orange);
+    .peity > polyline {
+        stroke: var(--color-orange) !important;
         stroke-width: 1px;
     }
 
@@ -159,12 +160,12 @@
         border-radius: var(--border-radius) !important;
         overflow: hidden;
     }
-
+    
     .col-sm-6 {
         overflow: hidden;
         text-overflow: ellipsis;
     }
-
+    
     .progress-bar-info {
         background-color: var(--color-gold) !important;
         border-right: 1px solid var(--color-orange) !important;
